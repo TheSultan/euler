@@ -13,7 +13,7 @@ def main():
     print('"' + str(expectans) + '"')
     print("Problem {:03d}: {:7d} ms{}".format(
         prob, int(round(elapsedtime * 1000)),
-        "" if actualans == expectans else "    *** FAIL ***"))
+        "" if str(actualans) == str(expectans) else "    *** FAIL ***"))
     print("Total computation time: {} ms".format(int(round(totaltime * 1000))))
 
 
