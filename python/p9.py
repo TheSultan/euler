@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 def compute():
   n = 1000
   for a in xrange(1,n):

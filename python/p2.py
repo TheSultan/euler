@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 def compute():
   x,y = 1,2
   max = 4*10**6

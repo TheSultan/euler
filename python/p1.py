@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 def compute():
   sum = 0
   for i in range(1000):

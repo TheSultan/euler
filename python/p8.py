@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 def compute():
   ans = 0
   digits = map(int, list("73167176531330624919225119674426574742355349194934"

@@ -1,14 +1,11 @@
-#!/usr/bin/python
-
-def isPalindrome(s):
-  return s==s[::-1]
+import euler
 
 def compute():
   ans = 0
   for i in range(100,1000):
     for j in range(i,1000):
       product = i*j
-      if product > ans and isPalindrome(str(product)):
+      if product > ans and euler.isPalindrome(str(product)):
         ans = product
   return ans
 

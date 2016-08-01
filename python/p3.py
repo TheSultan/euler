@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 def compute():
   ans = 0
   i = 1
