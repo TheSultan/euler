@@ -5,7 +5,7 @@ def compute():
   for i in range(100,1000):
     for j in range(i,1000):
       product = i*j
-      if product > ans and euler.isPalindrome(str(product)):
+      if product > ans and euler.is_palindrome(str(product)):
         ans = product
   return ans
 

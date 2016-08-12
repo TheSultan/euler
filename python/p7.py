@@ -5,7 +5,7 @@ def compute():
   i = 2
   primes = 0
   while (primes < n):
-    if (euler.isPrime(i)): 
+    if (euler.is_prime(i)): 
       primes += 1
     i += 1
   return i-1
